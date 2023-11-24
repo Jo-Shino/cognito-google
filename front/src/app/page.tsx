@@ -8,6 +8,7 @@ export default function Home() {
     <main className="flex h-screen justify-center items-center">
       <div className="text-center">
         <h1 className="text-4xl font-bold">Next Auth</h1>
+
         <IsLoggedin />
         <LoginButton />
         <LogoutButton />
